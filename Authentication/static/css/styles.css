@@ -1,0 +1,34 @@
+.space{
+    margin-right: 20px;
+}
+
+.container {
+    max-width: 490px;
+    width: 100%;
+    margin: 4.125rem auto 0 auto;
+    border-radius: 10px;
+    border: 2px solid  #7b8ab8;
+    background-color: #7b8ab8;
+    
+}
+
+
+label.text-info {
+    font-size: 20px;
+}
+
+.form-group{
+    margin-bottom: 20px;
+}
+
+.form-control{
+    padding: 0.5rem ;
+    font-size: 20px;
+    color: black;
+}
+/* .form-control1{
+    padding: 1rem;
+  
+    background-color:#a4adc8;
+} */
+
