@@ -15,7 +15,7 @@ from django.contrib.auth import authenticate, login, logout
 
 def Home(request):
 
-    return render(request, "index.html")
+    return render(request, "webbapp/index.html")
  # - signup. 
 
 def SignUp(request):
@@ -40,7 +40,7 @@ def SignUp(request):
 
         return redirect('my-signin')
 
-    return render(request, "signup.html")
+    return render(request, "webbapp/signup.html")
 
  # - signin. 
 def SignIn(request):
@@ -62,7 +62,7 @@ def SignIn(request):
             messages.error("bad creditionals")
             return redirect("my-SignIn")
 
-    return render(request, "signin.html")
+    return render(request, "webbapp/signin.html")
 
  # - signout. 
 
